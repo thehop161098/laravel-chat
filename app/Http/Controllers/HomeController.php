@@ -72,7 +72,7 @@ class HomeController extends Controller
 
         // pusher
         $options = array(
-            'cluster' => 'ap2',
+            'cluster' => 'ap1',
             'useTLS' => true
         );
 
