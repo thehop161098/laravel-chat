@@ -36,7 +36,7 @@ class HomeController extends Controller
         from users LEFT  JOIN  messages ON users.id = messages.from and is_read = 0 and messages.to = " . Auth::id() . "
         where users.id != " . Auth::id() . " 
         group by users.id, users.name, users.avatar, users.email");
-
+        // dd($users);
         return view('home', ['users' => $users]);
     }
 
