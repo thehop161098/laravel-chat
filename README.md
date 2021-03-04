@@ -2,10 +2,6 @@
 
 Very simple php based chatting application
 
-# Installation
-1. Clone this repo
-```
-https://github.com/samironbarai/laravel_chat.git
 ```
 
 2. Install composer packages
@@ -35,8 +31,4 @@ login to https://pusher.com/ and create new app
 put pusher credentials to .env file
 replace PUSHER_APP_KEY in your app.blade.php
 
-var pusher = new Pusher('49f3ba8c9d3adab2613e', {
-    cluster: 'ap2',
-    forceTLS: true
-});
 ```
